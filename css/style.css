@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 313px;
+    margin-right: 313px;
+    border: 1px solid darkred;
+}
+nav ul li.nav_logo{
+    margin-right: 504px;
+    border: 1px solid red;
+}
+nav ul li.nav_element{
+    margin-right: 20px;
+    border: 1px solid green;
+}
+nav ul li.nav_element.last{
+    margin-right: 0px;
+    border: 1px solid green;
+}
+ul li{
+    list-style: none;
+}
