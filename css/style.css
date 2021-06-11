@@ -3,6 +3,14 @@
     margin:0;
     padding: 0;
 }
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 nav ul{
     display: flex;
     flex-direction: row;
@@ -10,19 +18,31 @@ nav ul{
     align-items: center;
     margin-left: 313px;
     margin-right: 313px;
-    border: 1px solid darkred;
+    width: 1294px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
 }
 nav ul li.nav_logo{
+    justify-content: start;
     margin-right: 504px;
-    border: 1px solid red;
 }
 nav ul li.nav_element{
-    margin-right: 20px;
-    border: 1px solid green;
+    background-color: #260CA7;
+    text-align: center;
+    width:134px;
+    height: 45px;
+    margin-right: 11px;
+}
+nav ul li a{
+    height: 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 nav ul li.nav_element.last{
     margin-right: 0px;
-    border: 1px solid green;
 }
 ul li{
     list-style: none;
