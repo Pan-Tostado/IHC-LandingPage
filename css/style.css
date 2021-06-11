@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    font-family: Lato;
+
 }
 /* latin-ext */
 @font-face {
@@ -11,6 +13,7 @@
     src: url(http://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+/*Navigation Bar*/
 nav ul{
     display: flex;
     flex-direction: row;
@@ -19,7 +22,6 @@ nav ul{
     margin-left: 313px;
     margin-right: 313px;
     width: 1294px;
-    font-family: Lato;
     font-size: 15px;
     font-weight: 400;
 }
@@ -33,6 +35,7 @@ nav ul li.nav_element{
     width:134px;
     height: 45px;
     margin-right: 11px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
 nav ul li a{
     height: 100%;
@@ -44,6 +47,53 @@ nav ul li a{
 nav ul li.nav_element.last{
     margin-right: 0px;
 }
-ul li{
+nav ul li{
     list-style: none;
+}
+/*Application Section*/
+#section_aplication{
+    font-size: 0px;
+}
+#section_aplication div{
+    display: inline-block;
+    vertical-align: middle;
+}
+#section_aplication div.img_application{
+    width: 279px;
+    height: 564px;
+    margin-left: 530px;
+    margin-top: 70px;
+}
+#section_aplication div.img_application img{
+    width: 279px;
+    height: 564px;
+}
+#section_aplication div.app_description{
+    width: 351px;
+    height: 354px;
+    margin-left: 157px;
+    font-weight: 400;
+}
+#section_aplication div.app_description h2{
+    font-size: 48px;
+    text-align: center;
+}
+#section_aplication div.app_description p{
+    font-size: 24px;
+    text-align: left;
+line-height: 47px;
+}
+#section_aplication div.app_description button{
+    width: 207px;
+    height: 54px;
+    margin-left: 73px;
+    margin-top: 55px;
+    background-color: #FE016B;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor:pointer;
+    border: none;
+    text-transform: uppercase;
 }
