@@ -3,7 +3,8 @@
     margin:0;
     padding: 0;
     font-family: Lato;
-
+    font-weight: 400;
+    border: 1px solid black;
 }
 /* latin-ext */
 @font-face {
@@ -81,7 +82,7 @@ nav ul li{
 #section_aplication div.app_description p{
     font-size: 24px;
     text-align: left;
-line-height: 47px;
+    line-height: 47px;
 }
 #section_aplication div.app_description button{
     width: 207px;
@@ -97,3 +98,76 @@ line-height: 47px;
     border: none;
     text-transform: uppercase;
 }
+/*Application Functionalities*/
+#section_functionalities{
+    display: flex;
+    flex-direction: column;
+    margin-top: 92px;
+}
+#section_functionalities h2{
+    text-align: center;
+    width: 354px;
+    height: 47px;
+    margin-left: 783px;
+    font-size: 34px;
+    background-color: #C4C4C4;
+}
+#section_functionalities div.row_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1150px;
+    margin-left:385px ;
+    margin-top: 47px;
+}
+#section_functionalities div.row_1 div.box{
+    width: 354px;
+    height: 263px;
+    background-color: #C4C4C4;
+    text-align: center;
+}
+#section_functionalities div.row_1 div p{
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_functionalities div.row_1 div.box:nth-child(1) img{
+    width: 130px;
+    height: 80px;
+    margin-top: 25px;
+}
+#section_functionalities div.row_1 div.box:nth-child(1) p{
+    width: 268px;
+    height: 128px;
+    margin-top: 19px;
+}
+#section_functionalities div.row_1 div.box:nth-child(2) img{
+    width: 268px;
+    height: 27px;
+    margin-top: 44px;
+}
+#section_functionalities div.row_1 div.box:nth-child(2) p{
+    width: 258px;
+    height: 69px;
+    margin-top: 28px;
+}
+#section_functionalities div.row_1 div.box:nth-child(3) img{
+    width: 130px;
+    height: 80px;
+    margin-top: 25px;
+}
+#section_functionalities div.row_1 div.box:nth-child(3) p{
+    width: 258px;
+    height: 128px;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+
