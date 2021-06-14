@@ -98,7 +98,7 @@ nav ul li{
     border: none;
     text-transform: uppercase;
 }
-/*Application Functionalities*/
+/*Functionalities Section*/
 #section_functionalities{
     display: flex;
     flex-direction: column;
@@ -162,6 +162,107 @@ nav ul li{
     height: 128px;
     margin-top: 24px;
 }
+/*How to use it Section*/
+#section_howtouseit{
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 81px;
+}
+#section_howtouseit div.column_1{
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    height: 495px;
+    margin-left: 385px;
+    text-align: center;
+}
+#section_howtouseit div.column_1 h2{
+    font-size: 34px;
+    background-color: #C4C4C4;
+}
+#section_howtouseit div.column_1 div.container{
+    width: 352px;
+    height: 355px;
+    margin-top: 15px;
+    background-color: #C4C4C4;
+}
+#section_howtouseit div.column_1 ol{
+    font-size: 24px;
+    margin-left: 8px;
+    list-style: none;
+    text-align: left;
+    width: 312px;
+    height: 333px;
+}
+#section_howtouseit div.column_1 ol li:nth-child(1){
+    margin-top: 13px;
+}
+#section_howtouseit div.column_1 ol li:nth-child(2){
+
+    margin-top: 18px;
+}
+#section_howtouseit div.column_1 ol li:nth-child(3){
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+#section_howtouseit div.column_1 button{
+    font-size: 18px;
+    width: 203px;
+    height: 54px;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+    background-color: #260CA7;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#section_howtouseit img{
+    width: 642px;
+    height: 418px;
+    margin-left: 83px;
+}
+/*Contact us section*/
+#section_contactus{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
