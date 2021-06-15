@@ -204,7 +204,6 @@ nav ul li{
 }
 #section_howtouseit div.column_1 ol li:nth-child(3){
     margin-top: 18px;
-    margin-bottom: 50px;
 }
 #section_howtouseit div.column_1 button{
     font-size: 18px;
@@ -228,7 +227,63 @@ nav ul li{
 #section_contactus{
     display: flex;
     flex-direction: row;
+    margin-top: 76px;
 }
+#section_contactus div.box_contactus{
+    display: flex;
+    flex-direction: column;
+    margin-right: 180px;
+    margin-left: 385px;
+}
+#section_contactus div.box_contactus h2 {
+    width: 352px;
+    height: 48px;
+    font-size: 34px;
+    text-align: center;
+    background-color: #C4C4C4;
+}
+#section_contactus div.box_contactus div.box2_contactus {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    align-items: center;
+    width: 352px;
+    height: 355px;
+    background-color: #C4C4C4;
+}
+#section_contactus div.box_contactus div.box2_contactus input{
+    width: 320px;
+    height: 49px;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,0.26);
+    font-size: 18px;
+}
+#section_contactus div.box_contactus div.box2_contactus textarea{
+    width: 320px;
+    height: 133px;
+    margin-top: 34px;
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,0.26);
+    font-size: 18px;
+    resize: none;
+}
+#section_contactus div.box_contactus div.box2_contactus button{
+    width: 207px;
+    height: 54px;
+    margin-top: 30px;
+    background-color: #260CA7;
+    color: #FFFFFF;
+    font-size: 18px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#section_contactus img{
+    width: 642px;
+    height: 426px;
+}
+
+
+
 
 
 
