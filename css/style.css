@@ -14,20 +14,23 @@
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /*Navigation Bar*/
+nav{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
 nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 313px;
-    margin-right: 313px;
-    width: 1294px;
     font-size: 15px;
     font-weight: 400;
 }
 nav ul li.nav_logo{
     justify-content: start;
-    margin-right: 504px;
+    margin-right: 35%;
+    margin-left: 73px;
 }
 nav ul li.nav_element{
     background-color: #260CA7;
@@ -45,7 +48,7 @@ nav ul li a{
     align-items: center;
 }
 nav ul li.nav_element.last{
-    margin-right: 0px;
+    margin-right: 73px;
 }
 nav ul li{
     list-style: none;
@@ -131,7 +134,7 @@ nav ul li{
     margin-left: auto;
     margin-right: auto;
 }
-#section_functionalities div.row_1 div.box:nth-child(1) img{
+#section_functionalities sdiv.row_1 div.box:nth-child(1) img{
     width: 130px;
     height: 80px;
     margin-top: 25px;
