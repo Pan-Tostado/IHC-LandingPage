@@ -101,6 +101,8 @@ nav ul li{
     cursor:pointer;
     border: none;
     text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
 }
 /*Functionalities Section*/
 #section_functionalities div.column_1_functionalities{
@@ -188,6 +190,8 @@ nav ul li{
 #section_howtouseit div.column_1 h2{
     font-size: 34px;
     background-color: #C4C4C4;
+    width: 354px;
+    height: 47px;
 }
 #section_howtouseit div.column_1 div.container{
     width: 352px;
@@ -243,8 +247,6 @@ nav ul li{
 #section_contactus div.box_contactus{
     display: flex;
     flex-direction: column;
-    margin-right: 180px;
-
 }
 #section_contactus div.box_contactus h2 {
     width: 352px;
@@ -295,9 +297,10 @@ nav ul li{
 #section_contactus img{
     width: 642px;
     height: 426px;
+    margin-left: 5.76%;
 }
 /*Footer Section*/
-#footer_section{
+#section_footer{
     background-color: #C4C4C4;
     width: 100%;
     height: 448px;
@@ -306,34 +309,34 @@ nav ul li{
     text-align: center;
     margin-top: 91px;
 }
-#footer_section >img{
+#section_footer >img{
     width: 140px;
     height: 124px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 57px;
 }
-#footer_section div.box_footer{
+#section_footer div.box_footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
 }
-#footer_section div.box_footer img:nth-child(1){
+#section_footer div.box_footer img:nth-child(1){
     width:25px;
     height:47px ;
 }
-#footer_section div.box_footer img:nth-child(2){
+#section_footer div.box_footer img:nth-child(2){
     width:47px;
     height:47px ;
     margin-left: 85px;
     margin-right: 85px;
 }
-#footer_section div.box_footer img:nth-child(3){
+#section_footer div.box_footer img:nth-child(3){
     width:47px;
     height:47px;
 }
-#footer_section p{
+#section_footer p{
     margin-top: 32px;
     font-size: 14px;
 }
